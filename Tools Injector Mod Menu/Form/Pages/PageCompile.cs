@@ -473,7 +473,7 @@ namespace Tools_Injector_Mod_Menu
 
         private bool MoveSmali(string destinationPath)
         {
-            if (!MoveDirectory(TEMP_PATH_T_FIVE + "\\com", $"{destinationPath}\\smali\\com", true, true))
+            if (!MoveDirectory(TEMP_PATH_T_FIVE + "\\com", $"{destinationPath}smali\\com", true, true))
             {
                 FormState(State.Idle);
                 return false;
